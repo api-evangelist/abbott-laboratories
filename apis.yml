@@ -1,7 +1,11 @@
 aid: abbott-laboratories
-url: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.abbott-laboratories.com
+description: >-
+  Abbott Laboratories is a global healthcare company that develops, manufactures,
+  and markets pharmaceuticals, medical devices, diagnostics, and nutritional products.
