@@ -12,6 +12,8 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/abbott-
   - type: Website
     url: https://www.abbott.com/
   - type: Portal
