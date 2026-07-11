@@ -13,6 +13,8 @@ type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 common:
+  - type: DomainSecurity
+    url: security/abbott-laboratories-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/abbott-
   - type: Website
