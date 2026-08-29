@@ -1,0 +1,41 @@
+generated: '2026-08-29'
+method: searched
+source: https://www.corelaboratory.abbott/llms.txt
+note: >-
+  Two real llms.txt documents are served from Abbott-controlled hosts and both were saved
+  verbatim. Neither is an API-documentation llms.txt — both are site-navigation maps written
+  for crawlers, and neither names an endpoint, an authentication scheme, or a machine-readable
+  contract. www.abbott.com itself returns 404 for /llms.txt.
+documents:
+  - url: https://www.corelaboratory.abbott/llms.txt
+    status: 200
+    bytes: 17168
+    file: abbott-laboratories-llms.txt
+    title: Core Laboratory Solutions
+    scope: >-
+      Abbott Core Laboratory product catalogue — Alinity, ARCHITECT, CELL-DYN, GLP Systems
+      and the AlinIQ digital-health/middleware family. Link map only; no API surface.
+  - url: https://www.hellolingo.com/llms.txt
+    status: 200
+    bytes: 2234
+    file: abbott-laboratories-hellolingo-llms.txt
+    title: Lingo E-Commerce Site
+    scope: >-
+      Lingo, Abbott's direct-to-consumer continuous-glucose biowearable storefront. Documents
+      the e-commerce route table (catalog, account, subscription, checkout, returns) for AI
+      systems. Consumer storefront routes, not a developer API.
+probes:
+  - url: https://www.abbott.com/llms.txt
+    status: 404
+  - url: https://www.diabetescare.abbott/llms.txt
+    status: 404
+  - url: https://www.cardiovascular.abbott/llms.txt
+    status: 404
+  - url: https://www.molecular.abbott/llms.txt
+    status: 404
+  - url: https://www.diagnostics.abbott/llms.txt
+    status: 404
+  - url: https://www.nutrition.abbott/llms.txt
+    status: 404
+  - url: https://www.globalpointofcare.abbott/llms.txt
+    status: 404

@@ -1,6 +1,7 @@
-generated: '2026-07-11'
+generated: '2026-08-29'
 method: probed
-source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+source: live DNS/TLS/HTTP probes of apis.yml hosts plus the Abbott-controlled product hosts found during
+  contract discovery (2026-08-29)
 hosts:
 - host: www.abbott.com
   https: true
@@ -8,6 +9,39 @@ hosts:
   cert_expires: Feb 23 23:59:59 2027 GMT
   hsts: true
   hsts_max_age: 31557600
+- host: www.libreview.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov 14 09:32:28 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+  hsts_include_subdomains: true
+  hsts_preload: true
+  note: Abbott Diabetes Care LibreView platform; serves the only Abbott RFC 9116 security.txt
+- host: www.hellolingo.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 12 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 63072000
+  hsts_include_subdomains: true
+  hsts_preload: true
+  note: Lingo biowearable storefront; serves an llms.txt
+- host: www.corelaboratory.abbott
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 23 23:59:59 2026 GMT
+  hsts: false
+  note: Abbott Core Laboratory; serves an llms.txt. No HSTS header on the root response.
+- host: www.cybersecurity.abbott
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Nov 20 23:59:59 2026 GMT
+  hsts: true
+  hsts_max_age: 31557600
+  hsts_include_subdomains: false
+  hsts_preload: false
+  note: 'Abbott product-security site: advisories, CVD program, HDS certification'
 domains:
 - domain: abbott.com
   dnssec: false
@@ -15,3 +49,16 @@ domains:
   spf: true
   dmarc: true
   dmarc_policy: reject
+- domain: libreview.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
+  note: No SPF, DMARC, CAA or DS record published at the apex.
+- domain: hellolingo.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+  note: Proofpoint-hosted SPF/DMARC; no CAA, no DNSSEC.

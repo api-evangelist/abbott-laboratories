@@ -1,0 +1,6 @@
+Contact: mailto:adcsecops@abbott.com
+Expires: 2026-12-16T05:00:00.000Z
+Encryption: https://abbottadc-pgpkey-security.s3.amazonaws.com/pgp.pub
+Preferred-Languages: en
+Policy: https://abbottadc-pgpkey-security.s3.amazonaws.com/CVD-Policy.pdf
+

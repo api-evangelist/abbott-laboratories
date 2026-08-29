@@ -41,7 +41,7 @@ common:
     url: https://www.linkedin.com/company/abbott-
   - type: Website
     url: https://www.abbott.com/
-  - type: Portal
+  - type: Partners
     url: https://www.abbott.com/en-us/partners.html
   - type: PrivacyPolicy
     url: https://www.abbott.com/en-us/privacy-policy.html
@@ -49,6 +49,30 @@ common:
     url: https://www.abbott.com/en-us/online-terms-and-conditions.html
   - type: Contact
     url: https://www.abbott.com/en-us/about-abbott/contact.html
+  - type: Blog
+    url: https://www.abbott.com/corpnewsroom.html
+  - type: WellKnown
+    url: well-known/abbott-laboratories-well-known.yml
+  - type: SecurityTxt
+    url: well-known/abbott-laboratories-security.txt
+  - type: LLMsTxt
+    url: llms/abbott-laboratories-llms.txt
+  - type: VulnerabilityDisclosure
+    url: security/abbott-laboratories-vulnerability-disclosure.yml
+  - type: Security
+    url: security/abbott-laboratories-vulnerability-disclosure.yml
+  - type: TrustCenter
+    url: security/abbott-laboratories-trust-center.yml
+  - type: Conformance
+    url: conformance/abbott-laboratories-conformance.yml
+  - type: Compliance
+    url: conformance/abbott-laboratories-conformance.yml
+  - type: Packages
+    url: packages/abbott-laboratories-packages.yml
+  - type: Plans
+    url: plans/abbott-laboratories-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/abbott-laboratories-rate-limits.yml
   - type: Features
     data:
       - name: FreeStyle Libre CGM
@@ -88,10 +112,34 @@ description: >-
   monitoring system, cardiac monitoring devices, and connected diagnostics platforms
   that enable data sharing between patients, caregivers, and healthcare providers.
 created: '2024-01-15'
-modified: '2026-04-19'
+modified: '2026-08-29'
 position: Consuming
 specificationVersion: '0.23'
 apis: []
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-08-29'
+  status: minimal
+  artifacts_added: 11
+  pass: local-v1
+x-coverage:
+  state: gated
+  reason: sales-gate
+  detail: >-
+    Abbott's one real API — the LibreView cloud API behind FreeStyle Libre and LibreLinkUp —
+    has no public reference at all: access is granted only through a partner agreement
+    negotiated directly with Abbott Diabetes Care, and the page apis.yml carried as Abbott's
+    developer portal turns out to be a supplier-and-licensing page that names no API, SDK or
+    documentation anywhere on it.
+  evidence:
+    - url: https://www.abbott.com/en-us/partners.html
+      status: 200
+    - url: https://api.libreview.io/openapi.json
+      status: 404
+    - url: https://www.abbott.com/.well-known/api-catalog
+      status: 403
+    - url: https://www.abbott.com/llms.txt
+      status: 404
+  checked: '2026-08-29'

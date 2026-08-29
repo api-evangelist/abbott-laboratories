@@ -1,0 +1,96 @@
+generated: '2026-08-29'
+method: searched
+source: >-
+  https://www.cybersecurity.abbott/home/certifications.html ;
+  https://www.libreview.com/.well-known/security.txt ;
+  https://www.corelaboratory.abbott/llms.txt
+note: >-
+  Abbott publishes no machine-readable API contract, so no conformance claim here is derived
+  from a spec. Every entry below is asserted only where Abbott's own public pages state it,
+  and each carries the URL that states it. Standards that could not be evidenced from an
+  Abbott-published surface are recorded as conforms: false with the reason.
+conformance:
+  - id: rfc9116
+    name: RFC 9116 security.txt
+    conforms: true
+    evidence:
+      url: https://www.libreview.com/.well-known/security.txt
+      status: 200
+      detail: >-
+        Valid RFC 9116 document with Contact, Expires, Encryption, Preferred-Languages and
+        Policy fields. Served only from www.libreview.com (Abbott Diabetes Care), not from
+        the corporate host.
+  - id: hds
+    name: French ASIP Santé HDS (Health Data Host) certification
+    conforms: true
+    domain_standard: true
+    market: connected medical devices / health data hosting (France, EU)
+    evidence:
+      url: https://www.cybersecurity.abbott/home/certifications.html
+      status: 200
+      detail: >-
+        Abbott publishes the HDS representation-of-guarantees table for the Merlin.net Patient
+        Care Network, declaring itself an HDS-certified processor for activities 3-6 of
+        Article R. 1111-9 CSP, and naming its sub-processors and their requirement 29/30
+        exposure. This is the regime-native certification for hosting French personal health
+        data and is the domain standard signature for this provider's market.
+  - id: eu-us-dpf
+    name: EU-U.S. Data Privacy Framework
+    conforms: true
+    evidence:
+      url: https://www.cybersecurity.abbott/home/certifications.html
+      status: 200
+      detail: Abbott states it is registered under the Data Privacy Framework for EEA-to-US health data transfers.
+  - id: iso29147
+    name: ISO/IEC 29147 vulnerability disclosure
+    conforms: true
+    evidence:
+      url: https://www.cybersecurity.abbott/home/coordinated-disclosure-program.html
+      status: 200
+      detail: >-
+        Published coordinated vulnerability disclosure process with a named contact, a stated
+        scope (medical devices, SaMD, mobile medical applications) and a 5-business-day
+        acknowledgement commitment. No safe harbour is stated.
+  - id: hl7v2
+    name: HL7 v2 laboratory information system interface
+    conforms: unverified
+    domain_standard: true
+    market: clinical laboratory diagnostics
+    evidence:
+      url: https://www.corelaboratory.abbott/int/en/offerings/brands/alinity/Alinity-h-hematology-system.html
+      status: 200
+      detail: >-
+        Abbott's Alinity analyzers ship an HL7 LIS interface (the "Alinity h-series LIS
+        Interface Manual (HL7)", document 80000451-103). The manual is distributed to
+        customers as a PDF and is not published at an Abbott URL reachable without a login,
+        so this is recorded as unverified rather than conforms: true. It is the domain
+        standard a laboratory buyer would need, and Abbott does not publish it openly.
+  - id: fhir
+    name: HL7 FHIR
+    conforms: false
+    evidence:
+      detail: >-
+        No FHIR capability statement, implementation guide or endpoint is published on any
+        Abbott host. Abbott's EHR integrations (e.g. LibreView to Epic) are delivered through
+        partner agreements, not a published FHIR surface.
+  - id: oauth2
+    name: OAuth 2.0
+    conforms: unverified
+    evidence:
+      detail: >-
+        Third-party health-data aggregators describe an OAuth-based consent flow into the
+        LibreView/LibreLinkUp ecosystem, but Abbott publishes no authorization-server
+        metadata (/.well-known/oauth-authorization-server returns 404 on api.libreview.io)
+        and no public OAuth documentation. Not asserted.
+  - id: rfc9457
+    name: RFC 9457 problem+json
+    conforms: false
+    evidence:
+      detail: No published contract or error reference exists to evaluate.
+  - id: openapi
+    name: OpenAPI
+    conforms: false
+    evidence:
+      detail: >-
+        No OpenAPI/Swagger document was found at any Abbott-controlled host after probing
+        /openapi.json, /swagger.json, /api-docs and /.well-known/api-catalog across ten hosts.

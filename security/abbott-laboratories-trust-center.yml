@@ -1,0 +1,52 @@
+generated: '2026-08-29'
+method: searched
+source: https://www.cybersecurity.abbott/
+trust_center:
+  present: true
+  name: Abbott Cybersecurity
+  url: https://www.cybersecurity.abbott/
+  status: 200
+  note: >-
+    Abbott operates a dedicated product-security site rather than a SaaS-style trust portal.
+    It carries product advisories, the coordinated disclosure program, and a certification
+    representation-of-guarantees page. There is no SOC 2 / ISO 27001 report request flow and
+    no automated compliance-document portal; a customer login gates the rest of the site.
+  sections:
+    - name: Product Advisories
+      url: https://www.cybersecurity.abbott/home/product-advisories.html
+      status: 200
+    - name: Coordinated Disclosure Program
+      url: https://www.cybersecurity.abbott/home/coordinated-disclosure-program.html
+      status: 200
+    - name: HDS Certification
+      url: https://www.cybersecurity.abbott/home/certifications.html
+      status: 200
+    - name: Customer Login
+      url: https://www.cybersecurity.abbott/sign-in.html
+      note: gated
+    - name: Our Commitment to Cybersecurity
+      url: https://www.abbott.com/policies/cybersecurity/our-commitment-to-cybersecurity.html
+      status: 200
+certifications:
+  - name: French ASIP Santé / HDS (Hébergeur de Données de Santé — Health Data Host)
+    status: certified
+    scope: >-
+      Abbott CardioRhythm Management / Heart Failure — hosting, operation and maintenance of
+      the Merlin.net Patient Care Network. Covers activities 3, 4, 5 and 6 of Article
+      R. 1111-9 of the French Code de la santé publique.
+    evidence: https://www.cybersecurity.abbott/home/certifications.html
+    note: >-
+      Abbott publishes the HDS "representation of guarantees" table naming itself and its
+      processors (including St. Jude Medical Sweden AB) with their HDS status and their
+      exposure under HDS framework requirements 29 and 30.
+  - name: EU-U.S. Data Privacy Framework
+    status: registered
+    scope: Transfers of personal health data from the EEA to the United States.
+    evidence: https://www.cybersecurity.abbott/home/certifications.html
+not_found:
+  - name: SOC 2 / ISO 27001 / PCI DSS / FedRAMP
+    note: >-
+      No SOC 2, ISO 27001, PCI DSS or FedRAMP attestation is published on any public Abbott
+      surface reachable without a customer login. Absence recorded, not asserted as absent
+      internally — enterprise attestations for a medical-device manufacturer are commonly
+      exchanged under NDA.

@@ -1,0 +1,25 @@
+generated: '2026-08-29'
+method: searched
+source: >-
+  https://www.abbott.com/en-us/partners.html ;
+  https://www.cybersecurity.abbott/ ; searched for a LibreView/LibreLinkUp partner API
+  pricing or plans page, 2026-08-29
+plan_count: 0
+plans: []
+note: >-
+  Abbott publishes no API plans, tiers, quotas or developer pricing of any kind. Abbott's
+  machine-accessible surface — the LibreView cloud API behind FreeStyle Libre and LibreLinkUp
+  — is reached only through a bilateral partner agreement negotiated with Abbott Diabetes
+  Care; third-party aggregators that resell it state that approval requires a direct
+  relationship with Abbott and is not guaranteed. Consumer pricing exists for the devices and
+  for the Lingo biowearable storefront (hellolingo.com), but that is product pricing, not API
+  pricing, and is deliberately not recorded here as a plan.
+evidence:
+  - url: https://www.abbott.com/en-us/partners.html
+    status: 200
+    detail: >-
+      The page apis.yml carried as the developer Portal is in fact a supplier-and-licensing
+      page. It mentions no API, SDK, developer, webhook or technical documentation.
+  - url: https://www.hellolingo.com/llms.txt
+    status: 200
+    detail: Lingo storefront route map — consumer checkout and subscription, no developer plan.

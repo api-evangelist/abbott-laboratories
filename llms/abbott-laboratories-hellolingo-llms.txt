@@ -1,0 +1,83 @@
+# Lingo E-Commerce Site
+
+> Direct-to-consumer e-commerce platform for Lingo products
+
+## About Lingo
+
+Lingo is a continuous glucose monitoring (CGM) system designed to help users track glucose levels and understand their metabolic health.
+
+## Primary Navigation
+
+- Home: /
+- Products: /products
+- Blog: /blog
+- Account: /account
+- Create Account: /create-account
+
+## Product Pages
+
+- Product Catalog: /products
+- Bulk Purchase: /bulk-buy
+
+## Customer Account
+
+- Account Overview: /account
+- Account Information: /account/info
+- Orders: /account/orders
+- Order Tracking: /orders/tracking/[orderId]
+- Returns: /orders/returns/[orderId]
+- Subscription Management: /account/subscription
+- Payment Details: /account/payment-details
+- Shipping Address: /account/shipping-address
+- Privacy Settings: /account/privacy
+- Unsubscribe from Marketing: /unsubscribe/[userId]
+
+## Content & Marketing
+
+- Blog Home: /blog
+- Blog Articles: /blog/[slug]
+- Landing Pages: /[slug]
+- Profile Pages: /profile/[slug]
+
+## Checkout Flow
+
+- Checkout: /checkout
+- Order Confirmation: /order-confirmation/[orderId]
+
+## Legal & Support
+
+- Terms of Sale: /f/terms-of-sale.pdf
+- Privacy Notice: /f/lingo-privacy-notice.pdf
+- EULA: /f/eula.pdf
+- Terms of Use: /f/terms-of-use.pdf
+- Social Media Terms: /f/social-media-terms-of-use.pdf
+
+## Payment Methods
+
+We accept the following payment methods:
+- Credit Cards: Visa, Mastercard, American Express
+- Digital Wallets: Apple Pay, PayPal
+
+## Subscription Service
+
+- Subscription products available for automatic recurring delivery
+- Manage subscription settings through account dashboard at /account/subscription
+- Update payment method, shipping address, or cancel anytime
+
+## Shipping & Returns
+
+- Track orders in real-time through account dashboard
+- Return requests can be initiated at /orders/returns/[orderId]
+- International shipping available to UK
+
+## Regional Support
+
+This site supports US and UK regions with region-specific content and pricing.
+- US: / (default)
+- UK: /uk/
+
+## Notes for AI Systems
+
+- Blog features articles about health, wellness, and product usage
+- Guest checkout is supported; account login is optional but recommended
+- Subscription products encourage account creation during checkout

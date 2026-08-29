@@ -1,0 +1,100 @@
+# Core Laboratory Solutions
+
+> This site provides information on Abbott's core laboratory services and innovative diagnostic solutions for healthcare professionals.
+
+## Documentation
+
+- [Core Laboratory Solutions](https://www.corelaboratory.abbott/int/en.html): Innovative laboratory solutions for healthcare and diagnostics.
+- [Abbott Core Laboratory Solutions](https://www.corelaboratory.abbott/int/en/home.html): Transform your lab with Abbott's innovative diagnostic systems.
+- [About Abbott Core Laboratory](https://www.corelaboratory.abbott/int/en/about-us.html): Explore Abbott's innovative solutions for laboratory performance enhancement.
+- [Customer Service Support](https://www.corelaboratory.abbott/int/en/about-us/customer-service-support.html): Contact information for Abbott's global customer service support.
+- [History and Heritage](https://www.corelaboratory.abbott/int/en/about-us/history-heritage.html): Explore our timeline of innovation in laboratory diagnostics.
+- [Laboratory Solutions and Offerings](https://www.corelaboratory.abbott/int/en/offerings.html): Explore innovative solutions for laboratory performance and diagnostics.
+- [Laboratory Solutions and Offerings](https://www.corelaboratory.abbott/int/en/offerings/category.html): Explore innovative solutions for laboratory performance and excellence.
+- [Laboratory Automation Solutions](https://www.corelaboratory.abbott/int/en/offerings/category/automation.html): Explore Abbott's comprehensive automation for laboratory efficiency.
+- [Hematology Analyzers and Systems](https://www.corelaboratory.abbott/int/en/offerings/category/hematology.html): Explore Abbott's comprehensive hematology solutions and services.
+- [Clinical Chemistry Solutions](https://www.corelaboratory.abbott/int/en/offerings/category/clinical-chemistry.html): Optimize lab performance with Abbott's clinical chemistry offerings.
+- [Laboratory Solutions and Brands](https://www.corelaboratory.abbott/int/en/offerings/brands.html): Explore innovative laboratory solutions and trusted diagnostic brands.
+- [CELL-DYN Hematology Solutions](https://www.corelaboratory.abbott/int/en/offerings/brands/cell-dyn.html): Comprehensive hematology analyzers and systems for laboratories.
+- [CELL-DYN Ruby Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/cell-dyn/cell-dyn-ruby.html): Efficient hematology analyzer for accurate blood count results.
+- [CELL-DYN Emerald Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/cell-dyn/cell-dyn-emerald.html): Compact hematology analyzer for fast, accurate lab results.
+- [CELL-DYN Emerald 22 Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/cell-dyn/cell-dyn-emerald22.html): Compact hematology analyzer designed for smaller clinical laboratories.
+- [CELL-DYN Emerald 22 AL](https://www.corelaboratory.abbott/int/en/offerings/brands/cell-dyn/cell-dyn-emerald-22-al.html): Compact hematology analyzer for efficient laboratory performance.
+- [Accelerator a3600 Automation](https://www.corelaboratory.abbott/int/en/offerings/brands/accelerator.html): Enhance laboratory efficiency with Abbott's automation solutions.
+- [GLP Systems Track Automation](https://www.corelaboratory.abbott/int/en/offerings/brands/glp-systems.html): Innovative laboratory automation solutions for flexible, efficient workflows.
+- [GLP Systems Modules](https://www.corelaboratory.abbott/int/en/offerings/brands/glp-systems/glp-systems-modules.html): Customizable modules for laboratory workflow solutions and support.
+- [Alinity Laboratory Solutions](https://www.corelaboratory.abbott/int/en/offerings/brands/alinity.html): Innovative, integrated systems for efficient laboratory diagnostics.
+- [Alinity ci-Series Overview](https://www.corelaboratory.abbott/int/en/offerings/brands/alinity/alinity-ci-series.html): Integrated clinical chemistry and immunoassay systems for laboratories.
+- [Alinity h-series Hematology System](https://www.corelaboratory.abbott/int/en/offerings/brands/alinity/Alinity-h-hematology-system.html): Integrated hematology system enhancing laboratory workflow and efficiency.
+- [ARCHITECT Laboratory Solutions](https://www.corelaboratory.abbott/int/en/offerings/brands/architect.html): Explore integrated systems for clinical chemistry and immunoassay.
+- [ARCHITECT c16000 Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-c16000.html): High throughput clinical chemistry analyzer for reliable results.
+- [ARCHITECT ci16200 System](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-ci16200.html): High-capacity integrated system for clinical chemistry testing.
+- [ARCHITECT c4000 Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-c4000.html): High-capacity clinical analyzer for rapid testing results.
+- [ARCHITECT ci4100 Overview](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-ci4100.html): Efficient diagnostic instrument for lower volume laboratories.
+- [ARCHITECT c8000 Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-c8000.html): High productivity clinical chemistry analyzer with efficient testing capabilities.
+- [ARCHITECT ci8200 System](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-ci8200.html): Integrated system for efficient clinical chemistry and immunoassays.
+- [ARCHITECT i2000SR Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-i2000SR.html): High throughput immunoassay analyzer for laboratory efficiency.
+- [ARCHITECT i4000SR Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-i4000SR.html): High-throughput immunoassay analyzer for efficient lab productivity.
+- [ARCHITECT i1000SR Analyzer](https://www.corelaboratory.abbott/int/en/offerings/brands/architect/architect-i1000SR.html): High productivity immunoassay analyzer for laboratory testing.
+- [AlinIQ Digital Health Solutions](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq.html): Streamline diagnostics with AlinIQ's innovative health solutions.
+- [AlinIQ Inventory Management System](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-ims.html): Optimize laboratory inventory management with real-time tracking solutions.
+- [AlinIQ Pre-Analytics Solutions](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/pre-analytics.html): Optimize pre-analytics processes to minimize errors and improve efficiency.
+- [AlinIQ Analyzer Management System](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-ams.html): Unlock laboratory performance with AlinIQ's scalable middleware platform.
+- [AlinIQ Always On Services](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-always-on.html): Proactive lab services for improved instrument health and efficiency.
+- [AlinIQ Clinical Decision Support](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-cds.html): Enhance clinical management with patient-specific decision support tools.
+- [AlinIQ Analytics Solutions](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-analytics.html): Optimize laboratory performance with actionable insights and analytics.
+- [AlinIQ Insight Overview](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-insight.html): Real-time lab management solution for improved efficiency.
+- [AlinIQ AMS System Operations](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-insight/system-operations.html): Optimize lab performance with real-time monitoring and control.
+- [Instrument Aware Overview](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-insight/instrument-aware.html): Enhance lab efficiency with real-time instrument monitoring solutions.
+- [Instrument Reporting Solutions](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-insight/instrument-reporting.html): Streamline compliance and optimize lab performance with insights.
+- [AlinIQ RMS Overview](https://www.corelaboratory.abbott/int/en/offerings/brands/aliniq/aliniq-rms.html): Streamline lab operations with AlinIQ RMS for inventory management.
+- [Laboratory Offerings Overview](https://www.corelaboratory.abbott/int/en/offerings/segments.html): Explore innovative solutions and brands for laboratory excellence.
+- [Drugs of Abuse Toxicology](https://www.corelaboratory.abbott/int/en/offerings/segments/drugs-of-abuse-toxicology.html): Assays for detecting drug abuse and medication toxicity.
+- [Thyroid Testing Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/thyroid.html): Comprehensive assays for thyroid disorder screening and monitoring.
+- [Fertility and Pregnancy Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/fertility-pregnancy.html): Explore assays for fertility and pregnancy status evaluation.
+- [Neurology Solutions Overview](https://www.corelaboratory.abbott/int/en/offerings/segments/neurology.html): Explore innovative offerings and solutions for neurology.
+- [Mild Traumatic Brain Injury Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/neurology/mild-traumatic-brain-injury.html): Objective testing to assess mild traumatic brain injury effectively.
+- [Therapeutic Drug Monitoring](https://www.corelaboratory.abbott/int/en/offerings/segments/therapeutic-drug-monitoring.html): Ensuring safe and effective drug levels for patient care.
+- [Diabetes Diagnostic Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/diabetes.html): Explore Abbott's offerings for diabetes monitoring and management.
+- [Acid-Base and Electrolyte Testing](https://www.corelaboratory.abbott/int/en/offerings/segments/acid-base.html): Essential tests for diagnosing and monitoring pathological conditions including metabolic, respiratory and more. 
+- [Transplant Patient Monitoring](https://www.corelaboratory.abbott/int/en/offerings/segments/transplant.html): Accurate assays for managing transplant patient treatment and outcomes.
+- [General Chemistry Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/general-chemistry.html): Explore Abbott's comprehensive general chemistry assay offerings.
+- [Renal Testing Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/renal.html): High-quality assays for diagnosing kidney disease and management.
+- [Inflammatory Disorders Diagnostics](https://www.corelaboratory.abbott/int/en/offerings/segments/inflammatory-disorders.html): Explore Abbott's offerings for diagnosing inflammatory disorders.
+- [Metabolic Testing Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/metabolic.html): Comprehensive metabolic testing for accurate diabetes diagnosis and management.
+- [Specific Protein Assays](https://www.corelaboratory.abbott/int/en/offerings/segments/proteins.html): Explore Abbott's assays for diagnosing immune system diseases.
+- [Anemia Diagnostic Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/anemia.html): Comprehensive assays for diagnosing and treating anemia effectively.
+- [Bone Disease Diagnostics](https://www.corelaboratory.abbott/int/en/offerings/segments/bone-disease.html): Explore assays for diagnosing and monitoring bone disorders.
+- [Sepsis Diagnosis Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/sepsis.html): Learn about sepsis management and antibiotic stewardship strategies.
+- [Cancer Diagnostic Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/cancer.html): Explore Abbott's innovative cancer biomarker testing and assays.
+- [Ovarian Cancer Risk Assessment](https://www.corelaboratory.abbott/int/en/offerings/segments/cancer/ovarian-cancer.html): Learn about ovarian cancer diagnostics and risk stratification.
+- [Prostate Cancer Insights](https://www.corelaboratory.abbott/int/en/offerings/segments/cancer/prostate-cancer.html): Explore prostate cancer statistics, screening, and treatment options.
+- [Infectious Disease Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/infectious-disease.html): Innovative diagnostics for monitoring and managing infectious diseases.
+- [TORCH Testing Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/infectious-disease/torch.html): Accurate screening for congenital infections during pregnancy.
+- [SARS-CoV-2 Immunoassays](https://www.corelaboratory.abbott/int/en/offerings/segments/infectious-disease/sars-cov-2.html): Explore SARS-CoV-2 IgM and IgG antibody testing options.
+- [Hepatitis Immunoassays Overview](https://www.corelaboratory.abbott/int/en/offerings/segments/infectious-disease/hepatitis.html): Explore Abbott's innovative hepatitis diagnostic solutions and systems.
+- [Liver Disease Diagnostics](https://www.corelaboratory.abbott/int/en/offerings/segments/liver-disease.html): Explore Abbott's liver function assays and diagnostic solutions.
+- [Comprehensive Cardiac Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/cardiac.html): Accurate and fast cardiac care solutions for laboratories.
+- [Heart Failure Testing Solutions](https://www.corelaboratory.abbott/int/en/offerings/segments/cardiac/heart-failure.html): Empowering clinicians with accurate heart failure diagnostic tests.
+- [Cardiac Risk Stratification](https://www.corelaboratory.abbott/int/en/offerings/segments/cardiac/risk-stratification.html): Identify cardiac event risks for timely patient care.
+- [Laboratory Assays and Solutions](https://www.corelaboratory.abbott/int/en/offerings/assays.html): Explore diverse laboratory assays and integrated health solutions.
+- [Hemoglobin A1c Assay](https://www.corelaboratory.abbott/int/en/offerings/assays/hemoglobin-a1c.html): Automated HbA1c assay for diabetes diagnosis and monitoring.
+- [Tacrolimus Assay Overview](https://www.corelaboratory.abbott/int/en/offerings/assays/tacrolimus.html): Explore Abbott's Tacrolimus assay for transplant drug monitoring.
+- [High Sensitivity Troponin Assays](https://www.corelaboratory.abbott/int/en/offerings/assays/troponin.html): Accurate troponin testing for rapid myocardial infarction diagnosis.
+- [Comprehensive Immunoassay Solutions](https://www.corelaboratory.abbott/int/en/offerings/immunoassay.html): Explore Abbott's innovative immunoassay testing for better diagnostics.
+- [Laboratory Transformation System](https://www.corelaboratory.abbott/int/en/offerings/transformation-system.html): Enhance lab performance through strategic transformation and collaboration.
+- [End to End Solutions](https://www.corelaboratory.abbott/int/en/offerings/end-to-end-solutions.html): Personalized solutions for improved laboratory healthcare performance.
+- [Country Selector](https://www.corelaboratory.abbott/int/en/country-selector.html): Select your country for Abbott Core Laboratory services.
+- [Error Codes and Solutions](https://www.corelaboratory.abbott/int/en/errors.html): Comprehensive guide to error codes and troubleshooting solutions.
+- [Page Not Found](https://www.corelaboratory.abbott/int/en/errors/404.html): Error 404: Requested page cannot be found or moved.
+- [Laboratory Performance Benchmarking](https://www.corelaboratory.abbott/int/en/laboratory-performance.html): Enhance lab efficiency with performance benchmarking insights and metrics.
+- [Search Results Page](https://www.corelaboratory.abbott/int/en/search-results.html): No results found; modify search for better outcomes.
+- [Abbott at ADLM 2025](https://www.corelaboratory.abbott/int/en/adlm.html): Join Abbott for innovative sessions and demonstrations at ADLM.
+- [Contact Core Diagnostics](https://www.corelaboratory.abbott/int/en/contact.html): Reach out for support regarding products and services.
+- [Healthcare Knowledge Center](https://www.corelaboratory.abbott/int/en/knowledge-center.html): Explore resources to enhance laboratory and healthcare practices.
+- [Laboratory Learning Guides](https://www.corelaboratory.abbott/int/en/knowledge-center/learning-guides.html): Educational resources for laboratory professionals on core topics.
+- [Clinical Diagnostics Innovations](https://www.corelaboratory.abbott/int/en/knowledge-center/thought-leadership.html): Explore thought leadership on advancing patient care through diagnostics.
+- [Six Sigma Quality Management](https://www.corelaboratory.abbott/int/en/knowledge-center/six-sigma.html): Explore Six Sigma metrics for laboratory quality and efficiency.
+- [Leverage the Lab](https://www.corelaboratory.abbott/int/en/knowledge-center/leverage-the-lab.html): Enhancing health systems through laboratory collaboration and efficiency.
+- [Streamlining Pre-Analytics](https://www.corelaboratory.abbott/int/en/knowledge-center/case-study/mercy-indexor-preanalytics.html): Improving sample tracking and management with AlinIQ Indexor.
+- [Medic-Lab Growth Case Study](https://www.corelaboratory.abbott/int/en/knowledge-center/case-study/medic-lab_total-laboratory-solution.html): Explore how Abbott's solutions enhanced Medic-Lab's efficiency.

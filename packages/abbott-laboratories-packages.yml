@@ -1,0 +1,58 @@
+generated: '2026-08-29'
+method: searched
+source: >-
+  npm registry search, pypi.org/pypi/<pkg>/json, and Abbott's own product/developer surfaces,
+  probed 2026-08-29
+official_count: 0
+packages: []
+note: >-
+  Abbott Laboratories publishes NO first-party client library on any public registry. npm,
+  PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist and crates.io were searched for
+  Abbott, LibreView, LibreLinkUp, FreeStyle Libre and Lingo; every hit is community-authored
+  and reverse-engineered from the LibreLinkUp mobile app's traffic. The packages named on npm
+  under the "abbott" string belong to unrelated authors (a promise library, a chatbot
+  framework). Abbott has a GitHub organization — github.com/AbbottDiabetesCare — but it has
+  zero public repositories and was archived on 2024-10-16.
+community_packages:
+  note: >-
+    Recorded for ecosystem context ONLY. None of these is Abbott software, none is endorsed
+    by Abbott, and the largest of them states outright that it is "not affiliated with Abbott
+    Diabetes Care, Inc. or any of its subsidiaries". They are listed because their existence
+    is the measurement: developers wanting Abbott CGM data have had to build the client
+    themselves.
+  entries:
+    - language: python
+      registry: pypi
+      name: pylibrelinkup
+      url: https://pypi.org/project/pylibrelinkup/
+      version: 0.10.0
+      published: '2026-02-28'
+      official: false
+    - language: python
+      registry: pypi
+      name: LibreView
+      url: https://pypi.org/project/LibreView/
+      version: 0.3.0
+      published: '2026-04-01'
+      official: false
+    - language: javascript
+      registry: npm
+      name: "@diakem/libre-link-up-api-client"
+      url: https://www.npmjs.com/package/@diakem/libre-link-up-api-client
+      version: 0.7.2
+      published: '2025-05-06'
+      official: false
+    - language: javascript
+      registry: npm
+      name: libre-link-unofficial-api
+      url: https://www.npmjs.com/package/libre-link-unofficial-api
+      version: 1.0.0-alpha.7
+      published: '2025-03-08'
+      official: false
+    - language: javascript
+      registry: npm
+      name: librelinkup-api
+      url: https://www.npmjs.com/package/librelinkup-api
+      version: 1.0.2
+      published: '2025-02-25'
+      official: false

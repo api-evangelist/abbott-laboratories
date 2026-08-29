@@ -1,0 +1,103 @@
+generated: '2026-08-29'
+method: searched
+source: live HTTP probes of Abbott-controlled hosts, 2026-08-29
+note: >-
+  Abbott Laboratories publishes no developer-facing /.well-known discovery surface on its
+  corporate host. www.abbott.com answers 403 to every /.well-known/* request (Akamai edge
+  policy — the body is empty, not a document). ONE real document was found: an RFC 9116
+  security.txt served by www.libreview.com, Abbott Diabetes Care's FreeStyle Libre cloud
+  reporting platform, naming adcsecops@abbott.com and an Abbott-owned CVD policy PDF. That
+  host is otherwise a single-page-app catch-all — every other /.well-known/* path returns an
+  identical 961-byte HTML shell with HTTP 200, including a deliberately nonsense control
+  path, so those 200s are NOT documents and are recorded as soft-404s.
+hit_count: 1
+hosts:
+  - host: https://www.libreview.com
+    note: >-
+      Abbott Diabetes Care LibreView platform. SPA catch-all — every unmatched path returns
+      HTTP 200 with the same 961-byte HTML shell. security.txt is the only real document
+      (text/plain, 241 bytes, Last-Modified 2026-08-11).
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        content_type: text/plain
+        bytes: 241
+        file: abbott-laboratories-security.txt
+      - path: /.well-known/openid-configuration
+        status: 200
+        soft_404: true
+        bytes: 961
+        note: HTML SPA shell, not a document
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        soft_404: true
+        bytes: 961
+        note: HTML SPA shell, not a document
+      - path: /.well-known/api-catalog
+        status: 200
+        soft_404: true
+        bytes: 961
+        note: HTML SPA shell, not a document
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        soft_404: true
+        bytes: 961
+        note: HTML SPA shell, not a document
+      - path: /.well-known/agent-card.json
+        status: 200
+        soft_404: true
+        bytes: 961
+        note: HTML SPA shell, not a document
+      - path: /.well-known/agent.json
+        status: 200
+        soft_404: true
+        bytes: 961
+        note: HTML SPA shell, not a document
+      - path: /.well-known/thisshouldnotexist-control
+        status: 200
+        soft_404: true
+        bytes: 961
+        note: soft_404_control — proves every 200 above is the catch-all, not a served document
+  - host: https://www.abbott.com
+    note: Edge returns 403 with a zero-byte body for every /.well-known/* path.
+    documents:
+      - path: /.well-known/security.txt
+        status: 403
+      - path: /.well-known/agent-card.json
+        status: 403
+      - path: /.well-known/api-catalog
+        status: 403
+  - host: https://api.libreview.io
+    note: LibreView API host. Returns a JSON 404 envelope for every unauthenticated path.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+  - host: https://www.corelaboratory.abbott
+    documents:
+      - path: /.well-known/security.txt
+        status: 403
+      - path: /.well-known/agent-card.json
+        status: 404
+  - host: https://www.hellolingo.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/agent-card.json
+        status: 404
+  - host: https://www.diabetescare.abbott
+    documents:
+      - path: /.well-known/security.txt
+        status: 403
+  - host: https://www.cybersecurity.abbott
+    documents:
+      - path: /.well-known/security.txt
+        status: 403
+        note: 403 body is a "Sign in" page — the host sits behind an Abbott customer login.

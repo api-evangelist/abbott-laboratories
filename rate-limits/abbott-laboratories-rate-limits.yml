@@ -1,0 +1,21 @@
+generated: '2026-08-29'
+method: searched
+source: >-
+  searched Abbott and LibreView public surfaces for published rate limits, quotas or
+  throttling headers, 2026-08-29
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No rate limit, quota, burst allowance or throttling header is documented on any public
+  Abbott surface. There is no developer portal to document them in. The LibreView partner API
+  is not publicly documented, so any limits it enforces are disclosed only inside a signed
+  partner agreement. Recorded as an honest zero — this is an absence of publication, not a
+  claim that the API is unlimited.
+evidence:
+  - url: https://api.libreview.io/
+    status: 404
+    detail: Returns a bare JSON 404 envelope for every unauthenticated path; no headers of interest.
+  - url: https://www.abbott.com/en-us/partners.html
+    status: 200
+    detail: No API or developer content.
