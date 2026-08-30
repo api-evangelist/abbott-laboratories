@@ -1,0 +1,14 @@
+{
+  "repo": "abbott-laboratories",
+  "feeds": [
+    {
+      "source": "https://www.abbott.com/en-us/about-abbott/contact.html",
+      "feed_url": "https://www.abbott.com/en-us/about-abbott/contact.html",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-30T22:33:40Z"
+}
