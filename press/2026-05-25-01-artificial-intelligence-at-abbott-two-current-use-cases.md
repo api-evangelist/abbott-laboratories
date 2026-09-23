@@ -1,7 +1,9 @@
 ---
 title: Artificial Intelligence at Abbott - Two Current Use-Cases
 url: https://emerj.com/artificial-intelligence-at-abbott/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Abbott Laboratories" press release artificial intelligence'
 position: 1
 source: serpapi-google

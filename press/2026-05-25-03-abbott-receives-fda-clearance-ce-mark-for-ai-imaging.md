@@ -1,7 +1,9 @@
 ---
 title: Abbott receives FDA clearance, CE Mark for AI imaging ...
 url: https://www.investing.com/news/company-news/abbott-receives-fda-clearance-ce-mark-for-ai-imaging-platform-93CH-4641583
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Abbott Laboratories" press release artificial intelligence'
 position: 3
 source: serpapi-google

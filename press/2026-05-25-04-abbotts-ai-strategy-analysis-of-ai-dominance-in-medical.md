@@ -1,7 +1,9 @@
 ---
 title: 'Abbott''s AI Strategy: Analysis of AI Dominance in Medical ...'
 url: https://www.klover.ai/abbott-ai-strategy-analysis-of-ai-dominance-in-medical-devices-healthcare/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Abbott Laboratories" press release artificial intelligence'
 position: 4
 source: serpapi-google
