@@ -48,6 +48,265 @@ edges:
     - Abbott Labs
   detected_by: sweep-medical-imaging-ihe.py
   first_seen: '2026-10-20'
+- partner_name: FDA 510(k) premarket notifications (IVD / surgical panels)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262156
+  category: FDA-cleared IVD / surgical device
+  contract_reference:
+    register: openFDA device/510k (decision_date >= 2016-01-01; panels CH HE IM MI PA TX SU OR)
+    standard: FDA 510(k) premarket clearance (IVD / surgical panels)
+    spec_file: null
+    role: fda-510k-holder
+    registered_name: Abbott Laboratories
+    matched_domain: abbott.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    register_id: K262156
+    certified_products:
+    - product: FDA 510(k) clearance, Clinical Chemistry panel
+      product_type: Clinical Chemistry
+      review_panel: CH
+      lapsed: false
+      latest_decision: '2023-06-05'
+      devices_sample:
+      - ALINITY C GLUCOSE REAGENT KIT, ALINITY C SYSTEM
+      - ARCHITECT 25-OH Vitamin D 5P02, ARCHITECT 25-OH Vitamin D 5P02 Calibrators, ARCHITECT 25-OH Vitamin D 5P02
+        Controls
+      - Abbott ARCHITECT Free T3
+      - Abbott Architect Free T4
+      - Alinity c ICT Sample Diluent
+    - product: FDA 510(k) clearance, Hematology panel
+      product_type: Hematology
+      review_panel: HE
+      lapsed: false
+      latest_decision: '2025-02-20'
+      devices_sample:
+      - Alinity h-series System
+      - CELL-DYN Emerald 22 AL System
+      - i-STAT Hematocrit test with i-STAT Alinity System
+      - i-STAT PTplus Cartridge with the i-STAT 1 System
+    - product: FDA 510(k) clearance, Immunology panel
+      product_type: Immunology
+      review_panel: IM
+      lapsed: false
+      latest_decision: '2023-09-29'
+      devices_sample:
+      - TBI
+      - Traumatic brain injury (TBI) test
+      - i-STAT TBI Plasma cartridge with the i-STAT Alinity System
+    - product: FDA 510(k) clearance, Microbiology panel
+      product_type: Microbiology
+      review_panel: MI
+      lapsed: false
+      latest_decision: '2026-09-23'
+      devices_sample:
+      - ARCHITECT Syphilis TP Reagent, ARCHITECT Syphilis TP Calibrator, ARCHITECT Syphilis TP Control
+      - ARCHITECT Toxo IgG
+      - Alinity i Rubella IgG
+      - Alinity i Toxo IgM
+      - Anti-HCV Next
+    - product: FDA 510(k) clearance, Toxicology panel
+      product_type: Toxicology
+      review_panel: TX
+      lapsed: false
+      latest_decision: '2025-07-09'
+      devices_sample:
+      - ARCHITECT iGentamicin
+    signal_note: certified_products = one entry per FDA review PANEL held, never per device; openFDA carries decisions,
+      not withdrawals, so lapsed is always false
+    identity: wikidata Q306764 'Abbott Laboratories' P856 https://abbott.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: FDA premarket approval (IVD / surgical panels)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P120008
+  category: FDA PMA-approved IVD / surgical device
+  contract_reference:
+    register: openFDA device/pma (decision_date >= 2016-01-01; panels CH HE IM MI PA TX SU OR)
+    standard: FDA premarket approval (IVD / surgical panels)
+    spec_file: null
+    role: fda-pma-holder
+    registered_name: Abbott Laboratories
+    matched_domain: abbott.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    register_id: P120008
+    certified_products:
+    - product: FDA PMA approval, Immunology panel
+      product_type: Immunology
+      review_panel: IM
+      lapsed: false
+      latest_decision: '2026-05-11'
+      devices_sample:
+      - ABBOTT ARCHITECT AFP ASSAY
+      - ARCHITECT AFP
+      - ARCHITECT AFP (LN 3P36)
+      - ARCHITECT AFP / Alinity i AFP
+      - ARCHITECT AFP Reagents, Alinity i AFP Reagent Kit
+    - product: FDA PMA approval, Microbiology panel
+      product_type: Microbiology
+      review_panel: MI
+      lapsed: false
+      latest_decision: '2025-04-03'
+      devices_sample:
+      - ABBOTT ARCHITECT AUSAB
+      - ARCHITECT ANTI-HCV ASSAY; ARCHITECT ANTI-HCV CALIBRATOR; ARCHITECT ANTI-HCV CONTROL
+      - ARCHITECT AUSAB
+      - ARCHITECT AUSAB (LN 1L82)
+      - ARCHITECT AUSAB / Alinity i Anti-HBs
+    signal_note: certified_products = one entry per FDA review PANEL with a PMA decision (original or supplement),
+      never per device; lapsed always false (decisions, not withdrawals)
+    identity: wikidata Q306764 'Abbott Laboratories' P856 https://abbott.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: FDA establishment registration and device listing (IVD / surgical specialties)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm
+  category: FDA-registered device establishment
+  contract_reference:
+    register: openFDA device/registrationlisting (owner/operator, device listings by medical specialty)
+    standard: FDA establishment registration and device listing (21 CFR 807)
+    spec_file: null
+    role: fda-registered-owner-operator
+    registered_name: ABBOTT LABORATORIES
+    matched_domain: abbott.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    listed_specialties:
+    - Clinical Chemistry
+    - Hematology
+    - Immunology
+    - Microbiology
+    - Pathology
+    - General & Plastic Surgery
+    - Toxicology
+    signal_note: 'REGULATED through the establishment registration: a registration is not a clearance, so no certified_products;
+      specialties are context, never counted'
+    identity: wikidata Q306764 'Abbott Laboratories' P856 https://abbott.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: FDA CLIA test categorizations
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfClia/search.cfm
+  category: CLIA-categorized test system maker
+  contract_reference:
+    register: FDA CLIA test categorization database (clia_detail.zip)
+    standard: FDA CLIA categorization
+    spec_file: null
+    role: clia-categorized-test-system-maker
+    registered_name: Abbott Laboratories
+    matched_domain: abbott.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    register_id: CR250478
+    certified_products:
+    - product: FDA CLIA categorization, moderate complexity
+      product_type: moderate
+      lapsed: false
+      latest_effective: 2026/05/06
+      test_systems_sample:
+      - Abbott Laboratories, ARCHITECT i2000SR
+      - Abbott Laboratories, Abbott Alinity I System
+      - Abbott Laboratories, Abbott Alinity i System
+      - Abbott Laboratories, Abbott Architect i 1000SR System
+    - product: FDA CLIA categorization, waived complexity
+      product_type: waived
+      lapsed: false
+      latest_effective: 2000/02/25
+      test_systems_sample:
+      - ABBOTT LABORATORIES, MEDISENSE OPTIUM ADVANCED DIABETES MANAGEMENT SYSTEM
+    signal_note: 'certified_products = one entry per CLIA COMPLEXITY held (waived / moderate / high), never per
+      test system; the database lists categorizations, not withdrawals: lapsed false'
+    identity: wikidata Q306764 'Abbott Laboratories' P856 https://abbott.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: EUDAMED (EU IVDR manufacturers)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://ec.europa.eu/tools/eudamed/#/screen/search-eo/474bf609-e429-4dae-98f9-06d4d9f4a7b1
+  category: EU IVDR-registered manufacturer
+  contract_reference:
+    register: EUDAMED public API (UDI-DI data, applicable legislation IVDR; actor public information)
+    standard: EU IVDR (Regulation (EU) 2017/746) manufacturer + UDI registration
+    spec_file: null
+    role: eudamed-ivdr-manufacturer
+    registered_name: Abbott Laboratories
+    matched_domain: abbott.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    register_id: US-MF-000017778
+    register_country: US
+    actor_status: active
+    domain_from: registered e-mail domain
+    trade_names_sample:
+    - Alinity
+    certified_products:
+    - product: EU IVDR device registration, class A
+      product_type: IVDR class A
+      lapsed: false
+      statuses:
+      - on-the-market
+    signal_note: 'certified_products = one entry per IVDR RISK CLASS with registered devices, never per device;
+      lapsed when no device of that class is on the market. Self-filed actor registration: domain + name check +
+      country agreement, hand-reviewed'
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
+- partner_name: AdvaMedDx (members)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.advamed.org/advameddx/members/
+  category: Diagnostics trade body member
+  contract_reference:
+    register: AdvaMedDx member list (advamed.org/advameddx/members)
+    standard: null
+    spec_file: null
+    role: advameddx-member
+    registered_name: Abbott
+    matched_domain: abbott.com
+    matched_by: domain
+    detected_by: sweep-ivd-diagnostics.py
+    detected: '2026-10-21'
+    listed_website: https://www.abbott.com
+    signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
+  detected_by: sweep-ivd-diagnostics.py
+  first_seen: '2026-10-21'
 generated: '2026-10-20'
 method: searched
 source:
@@ -56,3 +315,9 @@ source:
 checked:
 - https://connectathon-results.ihe.net/custom-search/
 - https://product-registry.ihe.net/
+- https://api.fda.gov/device/510k.json
+- https://api.fda.gov/device/pma.json
+- https://api.fda.gov/device/registrationlisting.json
+- https://ec.europa.eu/tools/eudamed/api/
+- https://www.accessdata.fda.gov/premarket/ftparea/clia_detail.zip
+- https://www.advamed.org/advameddx/members/
