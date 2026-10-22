@@ -307,6 +307,106 @@ edges:
     signal_note: 'self-filed paid membership: listing alone = standard-participant; hand-reviewed'
   detected_by: sweep-ivd-diagnostics.py
   first_seen: '2026-10-21'
+- partner_name: EMA (EU centrally authorised medicines)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.ema.europa.eu/en/medicines/human/EPAR/ozespa
+  category: EU centrally authorised medicine
+  contract_reference:
+    register: EMA medicines report (centrally authorised medicines; CHMP / CVMP opinion, EC decision)
+    standard: EU centralised marketing authorisation (Regulation (EC) 726/2004)
+    role: eu-marketing-authorisation-holder
+    categories:
+    - Human
+    statuses:
+    - Application withdrawn
+    - Withdrawn
+    spec_file: null
+    registered_name: Abbott Laboratories Ltd.
+    matched_domain: abbott.com
+    matched_by: domain
+    current_authorisation: false
+    signal_note: certified_products = one entry per product TYPE, never per product, only from products granted
+      an MA; lapsed when every granted product of the type is withdrawn / expired / revoked / lapsed. Advanced-therapy
+      rows are read by cell-gene-therapy and not repeated here. Products are context, never counted
+    detected_by: sweep-eu-ema-medicines.py
+    detected: '2026-10-22'
+    certified_products:
+    - product: human medicine (other) (EU centralised marketing authorisation)
+      product_type: human medicine (other)
+      standard: EU centralised marketing authorisation (Regulation (EC) 726/2004)
+      lapsed: true
+      products_sample:
+      - Trudexa (adalimumab)
+      - Uprima (apomorphine)
+    identity: wikidata Q306764 'Abbott Laboratories' P856 https://abbott.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-eu-ema-medicines.py
+  first_seen: '2026-10-22'
+- partner_name: Health Canada (Medical Device Licence)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://health-products.canada.ca/api/medical-devices/company/?id=116662&lang=en&type=json
+  category: Canadian medical device licence
+  contract_reference:
+    register: Health Canada Medical Devices Active Licence Listing (MDALL) public API (health-products.canada.ca/api/medical-devices)
+    standard: Canada Medical Devices Regulations (SOR/98-282), Medical Device Licence
+    spec_file: null
+    role: licence-holder
+    registered_name: ABBOTT LABORATORIES
+    register_country: US
+    register_id: https://health-products.canada.ca/api/medical-devices/company/?id=116662&lang=en&type=json
+    company_status: A
+    matched_domain: abbott.com
+    matched_by: domain
+    certified_products:
+    - product: Health Canada Medical Device Licence, Class II
+      product_type: Class II
+      risk_class: 2
+      lapsed: false
+      first_issued: '2003-01-07'
+      conditional: false
+      licences_sample:
+      - ALINITY C SYSTEM
+      - ALINITY H SYSTEM
+      - ARCHITECT C16000 SYSTEM
+      - ARCHITECT C4000 SYSTEM
+      - ARCHITECT SYSTEM
+    - product: Health Canada Medical Device Licence, Class III
+      product_type: Class III
+      risk_class: 3
+      lapsed: false
+      first_issued: '2021-07-22'
+      conditional: false
+      licences_sample:
+      - ARCHITECT I SYSTEM
+    - product: Health Canada Medical Device Licence, Class IV
+      product_type: Class IV
+      risk_class: 4
+      lapsed: false
+      first_issued: '2003-11-14'
+      conditional: false
+      licences_sample:
+      - ALINITY I SYSTEM
+      - ALINITY S SYSTEM
+      - ARCHITECT "I" SYSTEM
+    signal_note: certified_products = one entry per device RISK CLASS licensed by Health Canada, lapsed when no
+      licence of that class is still issued (status I / D, no end date); licence names are a sample, licence and
+      device counts are context, never counted
+    detected_by: sweep-canada-medical-device-licensing.py
+    detected: '2026-10-22'
+    identity: wikidata Q306764 'Abbott Laboratories' P856 https://abbott.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-canada-medical-device-licensing.py
+  first_seen: '2026-10-22'
 generated: '2026-10-20'
 method: searched
 source:
@@ -321,3 +421,9 @@ checked:
 - https://ec.europa.eu/tools/eudamed/api/
 - https://www.accessdata.fda.gov/premarket/ftparea/clia_detail.zip
 - https://www.advamed.org/advameddx/members/
+- https://spor.ema.europa.eu/omswi/
+- https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx
+- https://www.ema.europa.eu/en/human-regulatory-overview/research-development/data-medicines-iso-idmp-standards-overview
+- https://www.ema.europa.eu/en/medicines/download-medicine-data
+- https://health-products.canada.ca/api/medical-devices/company/?lang=en&type=json
+- https://health-products.canada.ca/api/medical-devices/licence/?lang=en&type=json
