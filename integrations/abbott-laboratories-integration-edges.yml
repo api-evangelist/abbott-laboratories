@@ -407,6 +407,54 @@ edges:
     identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
   detected_by: sweep-canada-medical-device-licensing.py
   first_seen: '2026-10-22'
+- partner_name: FDA establishment registration and device listing (radiology / cardiovascular / robotic surgery)
+  partner: null
+  partner_match: register
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm
+  category: FDA-registered device establishment
+  contract_reference:
+    register: openFDA device/registrationlisting (owner/operator; specialties Radiology + Cardiovascular, product
+      code NAY)
+    standard: FDA establishment registration and device listing (21 CFR 807)
+    spec_file: null
+    role: fda-registered-owner-operator
+    registered_name: ABBOTT LABORATORIES
+    matched_domain: abbott.com
+    matched_by: domain
+    detected_by: sweep-fda-device-establishment-registrations.py
+    detected: '2026-10-23'
+    listed_specialties:
+    - Cardiovascular
+    - Radiology
+    specialty_tags:
+    - cardiovascular
+    - radiology
+    owner_country: US
+    fei_sample:
+    - '1000139754'
+    - '1000519796'
+    - '1218444'
+    product_codes_sample:
+    - DQK
+    - JIT
+    - DQY
+    - DQX
+    - JJX
+    - MXC
+    - LWP
+    - OBJ
+    nuclear_medicine_codes: []
+    signal_note: 'REGULATED through the establishment registration: a registration is not a clearance, so no certified_products;
+      specialties / product codes are context, never counted. Complements ivd-diagnostics'' registration edge (eight
+      other specialties)'
+    identity: wikidata Q306764 'Abbott Laboratories' P856 https://abbott.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-fda-device-establishment-registrations.py
+  first_seen: '2026-10-23'
 generated: '2026-10-20'
 method: searched
 source:
@@ -427,3 +475,4 @@ checked:
 - https://www.ema.europa.eu/en/medicines/download-medicine-data
 - https://health-products.canada.ca/api/medical-devices/company/?lang=en&type=json
 - https://health-products.canada.ca/api/medical-devices/licence/?lang=en&type=json
+- https://api.fda.gov/device/classification.json
