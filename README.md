@@ -1,4 +1,4 @@
-# Abbott Laboratories (abbott-laboratories)
+# Abbott Laboratories
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,61 +66,94 @@
 
 Abbott Laboratories is a global healthcare company that develops, manufactures, and markets pharmaceuticals, medical devices, diagnostics, and nutritional products. Abbott's digital health portfolio includes the FreeStyle Libre continuous glucose monitoring system, cardiac monitoring devices, and connected diagnostics platforms that enable data sharing between patients, caregivers, and healthcare providers.
 
-**URL:** [https://www.abbott.com/](https://www.abbott.com/)
+**Areas:** Healthcare · Medical Devices · Diagnostics · Digital Health · Life Sciences · Fortune 500
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=abbott-laboratories-api-evangelist&utm_content=repo)
+## Abbott Laboratories on APIs.io
 
-## Tags:
+Everything profiled for Abbott Laboratories is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/abbott-laboratories/](https://apis.io/providers/abbott-laboratories/)** — or go straight to one of the APIs or properties below.
 
- - Healthcare, Medical Devices, Diagnostics, Digital Health, Life Sciences
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-19
+#### Security (3)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-No public APIs have been documented yet. Abbott Laboratories offers partner APIs for digital health integration through their partnerships program. Contact Abbott directly for API access.
+- [Abbott Laboratories Domain Security](https://apis.io/security/abbott-laboratories/abbott-laboratories-domain-security/)
+- [Abbott Laboratories Trust Center](https://apis.io/security/abbott-laboratories/abbott-laboratories-trust-center/)
+- [Abbott Laboratories Vulnerability Disclosure](https://apis.io/security/abbott-laboratories/abbott-laboratories-vulnerability-disclosure/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Abbott Laboratories Plans Pricing](https://apis.io/plans/abbott-laboratories/abbott-laboratories-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Abbott Laboratories Rate Limits](https://apis.io/rate-limits/abbott-laboratories/abbott-laboratories-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.abbott.com/)
-- [Portal](https://www.abbott.com/en-us/partners.html)
-- [PrivacyPolicy](https://www.abbott.com/en-us/privacy-policy.html)
-- [TermsOfService](https://www.abbott.com/en-us/online-terms-and-conditions.html)
-- [Contact](https://www.abbott.com/en-us/about-abbott/contact.html)
+- [Blog](https://www.abbott.com/corpnewsroom.html)
+- [Terms of service](https://www.abbott.com/en-us/online-terms-and-conditions.html)
+- [Privacy policy](https://www.abbott.com/en-us/privacy-policy.html)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| FreeStyle Libre CGM | Continuous glucose monitoring system with LibreLinkUp connectivity for real-time glucose data sharing |
-| Diagnostics Platforms | Point-of-care and laboratory diagnostics for infectious disease, cardiac, and metabolic conditions |
-| Connected Heart Monitoring | Cardiac monitoring devices including implantable monitors and remote patient monitoring |
-| Nutrition Products | Science-based nutritional products across adult and pediatric segments |
-| Pharmaceutical Technologies | Branded generic medicines across cardiometabolic, women's health, and gastroenterology |
+**Kin Score 19.4** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 36.8 |
 
-| Name | Description |
-|------|-------------|
-| Remote Patient Monitoring | Connect continuous glucose monitors and cardiac devices to enable remote health tracking |
-| Digital Health Integration | Integrate Abbott device data with electronic health records and care management platforms |
-| Clinical Diagnostics | Streamline laboratory and point-of-care testing workflows with Abbott diagnostic systems |
-| Companion App Development | Build applications that integrate with FreeStyle Libre and other Abbott connected devices |
+**Agent readiness 2.5** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| LibreLinkUp | Mobile app ecosystem for sharing FreeStyle Libre glucose data with caregivers |
-| Electronic Health Records | Integration with major EHR platforms for clinical data exchange |
-| Apple Health | Integration with Apple HealthKit for sharing device data on iOS |
-| Google Health | Integration with Google Health for sharing device data on Android |
+**Regulatory alignment 28.9** — Health
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/abbott-laboratories/](https://apis.io/providers/abbott-laboratories/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Abbott Laboratories: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/abbott-laboratories/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
